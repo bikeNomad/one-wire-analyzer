@@ -104,7 +104,7 @@ cd build
 cmake .. -A x64
 ```
 
-Then, open the newly created solution file located here: `build\one_wire_analyzer.sln`
+Then, open the newly created solution file located here: `build\one_wire_sampling_analyzer.sln`
 
 Optionally, build from the command line without opening Visual Studio:
 

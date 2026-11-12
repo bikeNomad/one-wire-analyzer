@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 3.11)
-project(one_wire_analyzer)
+project(one_wire_sampling_analyzer)
 
 add_definitions( -DLOGIC2 )
 
@@ -24,4 +24,4 @@ src/OneWireSimulationDataGenerator.cpp
 src/OneWireSimulationDataGenerator.h
 )
 
-add_analyzer_plugin(one_wire_analyzer SOURCES ${SOURCES})
+add_analyzer_plugin(one_wire_sampling_analyzer SOURCES ${SOURCES})

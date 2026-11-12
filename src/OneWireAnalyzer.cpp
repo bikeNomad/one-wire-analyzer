@@ -798,7 +798,7 @@ U32 OneWireAnalyzer::GetMinimumSampleRateHz()
     return 2000000;
 }
 
-const char gAnalyzerName[] = "1-Wire"; // your analyzer must have a unique name
+const char gAnalyzerName[] = "1-Wire (Corrected Sampling)"; // your analyzer must have a unique name
 
 const char* OneWireAnalyzer::GetAnalyzerName() const
 {
